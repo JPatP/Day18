@@ -10,11 +10,11 @@ leonardo = T()
 leonardo.shape("classic")
 leonardo.speed(10)
 
+leonardo.penup()
+
 leonardo.setheading(225)
 leonardo.forward(300)
 leonardo.setheading(0)
-
-leonardo.penup()
 
 for i in range(1,101):
     leonardo.dot(20, random.choice(color_list))
